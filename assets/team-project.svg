@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="550" viewBox="0 0 760 550" role="img" aria-label="Three students collaborating around a computer">
+<rect width="760" height="550" rx="18" fill="#e4f3fa"/><path d="M0 405L760 405V550H0" fill="#d1e4ed"/>
+<g fill="#2c789f" opacity=".25"><circle cx="380" cy="144" r="105"/><circle cx="380" cy="144" r="56"/></g><path d="M310 143Q380 90 449 143M345 181Q380 206 415 181" stroke="#448dad" stroke-width="10" fill="none"/>
+<g transform="translate(70 176)"><circle cx="103" cy="84" r="51" fill="#d69f79"/><path d="M53 88Q41 17 103 17Q166 12 152 89L142 50H68Z" fill="#314c62"/><path d="M17 276Q18 170 105 168Q187 170 199 276" fill="#236f9a"/><rect x="23" y="255" width="172" height="32" rx="10" fill="#236f9a"/></g>
+<g transform="translate(283 160)"><circle cx="98" cy="83" r="54" fill="#bb855e"/><path d="M46 87Q34 20 101 17Q170 19 151 83L140 42Q101 61 52 47Z" fill="#2c4355"/><path d="M6 289Q14 173 99 168Q184 171 194 289" fill="#28576f"/></g>
+<g transform="translate(485 182)"><circle cx="104" cy="79" r="50" fill="#e6b48c"/><path d="M56 67Q49 14 106 20Q172 20 152 80L151 45Q125 34 66 56Z" fill="#4b3d3d"/><path d="M10 265Q15 164 104 164Q192 165 198 265" fill="#40869d"/></g>
+<path d="M151 394H615L671 472H100Z" fill="#7aa4b8"/><path d="M192 393L244 273H530L569 393Z" fill="#23425a"/><path d="M216 373L253 290H520L547 373Z" fill="#d8edf7"/><g stroke="#4e9ebd" stroke-width="5" fill="none"><path d="M268 337L297 319 337 336 380 311 433 330 479 304"/></g><path d="M320 444H445" stroke="#244963" stroke-width="8" stroke-linecap="round"/>
+</svg>

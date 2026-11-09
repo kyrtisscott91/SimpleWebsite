@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="750" height="510" viewBox="0 0 750 510" role="img" aria-label="Radar display with an airplane and flight readings">
+<rect width="750" height="510" rx="18" fill="#dfedf5"/><rect x="52" y="63" width="646" height="359" rx="16" fill="#183650"/><rect x="75" y="85" width="600" height="316" rx="8" fill="#123049"/>
+<g fill="none" stroke="#3c7895" opacity=".8" stroke-width="2"><circle cx="325" cy="237" r="128"/><circle cx="325" cy="237" r="80"/><circle cx="325" cy="237" r="32"/><path d="M184 237H466M325 97V378"/></g>
+<path d="M325 237L399 132" stroke="#63c6da" stroke-width="5"/><circle cx="394" cy="143" r="11" fill="#ecab4c"/>
+<g fill="white" transform="translate(300 213)"><path d="M2 30L28 24 42 2Q45 -1 49 2L48 23 77 29Q89 31 88 36L49 41 47 57 41 58 28 41 6 46 1 54 -5 53 -2 40 -16 36Z"/></g>
+<g font-family="Arial" fill="#d6f0fa"><text x="497" y="153" font-size="22" font-weight="bold">FLIGHT F220</text><text x="497" y="199" font-size="18">ALT 6,000 FT</text><text x="497" y="234" font-size="18">SPEED 220 KT</text><text x="497" y="269" font-size="18">LINK ACTIVE</text></g><g fill="#f0b656"><circle cx="511" cy="323" r="7"/><circle cx="535" cy="323" r="7"/><circle cx="559" cy="323" r="7"/></g>
+<rect x="302" y="422" width="145" height="43" fill="#728f9f"/><rect x="250" y="460" width="250" height="16" rx="7" fill="#728f9f"/>
+</svg>

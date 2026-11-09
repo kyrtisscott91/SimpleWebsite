@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Honeywell Aerospace - Satellite-based flight data monitoring.">
+  <title>About & Contact | Honeywell Aerospace</title>
+  <!-- Author: Kevin Acosta | Date: November 8, 2026 -->
+  <style>
+
+
+:root { --navy: #183650; --blue: #1678a9; --pale: #eaf4fa; --gold: #ecab4c; --ink: #26394a; --muted: #607183; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, Helvetica, sans-serif; background: #f4f7fa; color: var(--ink); line-height: 1.55; }
+a { color: var(--blue); }
+header { background: var(--navy); color: white; }
+.header-inner { max-width: 1100px; margin: auto; padding: 22px 26px 14px; display: flex; justify-content: space-between; gap: 18px; align-items: center; flex-wrap: wrap; }
+.site-name { margin: 0; font-size: 25px; letter-spacing: .4px; color: white; }
+.subtitle { margin: 3px 0 0; font-size: 12px; letter-spacing: 1.5px; text-transform: uppercase; color: #b6d4e5; }
+.class-label { font-size: 12px; border: 1px solid #84aec7; border-radius: 4px; padding: 6px 9px; color: #dfedf5; }
+nav { background: #244965; }
+.nav-inner { max-width: 1100px; margin: auto; padding: 0 26px; display: flex; flex-wrap: wrap; }
+nav a { display: inline-block; padding: 13px 17px; color: #fff; text-decoration: none; font-size: 15px; border-bottom: 3px solid transparent; }
+nav a:hover, nav a:focus, nav a[aria-current='page'] { background: #315b79; border-bottom-color: var(--gold); }
+main { max-width: 1100px; margin: 0 auto; padding: 30px 26px 56px; }
+h1 { color: var(--navy); font-size: clamp(30px, 4vw, 43px); line-height: 1.18; margin: 0 0 16px; }
+h2 { font-size: 25px; color: var(--navy); margin: 0 0 16px; }
+h3 { color: var(--navy); margin: 0 0 8px; font-size: 19px; }
+p { margin: 0 0 15px; }
+.section { margin-top: 38px; }
+.muted { color: var(--muted); }
+.eyebrow { text-transform: uppercase; letter-spacing: 1.3px; font-size: 12px; font-weight: bold; color: var(--blue); margin-bottom: 12px; }
+.btn { display: inline-block; background: var(--blue); color: #fff; padding: 11px 19px; font-size: 15px; border-radius: 5px; text-decoration: none; font-weight: bold; border: 0; cursor: pointer; }
+.btn:hover, .btn:focus { background: #0e5e88; }
+.btn-secondary { background: white; border: 1px solid var(--blue); color: var(--blue); }
+.btn-secondary:hover, .btn-secondary:focus { background: #e5f3fb; }
+.actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 23px; }
+.grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+.card { background: white; border: 1px solid #dae4eb; border-radius: 7px; padding: 21px; }
+.card p:last-child { margin-bottom: 0; }
+.info-strip { margin-top: 32px; background: #e8f3f8; border-left: 5px solid var(--blue); padding: 19px 22px; border-radius: 4px; }
+.small-note { color: var(--muted); font-size: 13px; }
+footer { background: var(--navy); color: #dce9f0; padding: 24px 26px; font-size: 13px; }
+.footer-inner { max-width: 1048px; margin: auto; }
+footer p { margin: 5px 0; }
+footer a { color: #c4e6ff; }
+@media (max-width: 760px) { .grid { grid-template-columns: 1fr; } main { padding: 22px 17px 45px; } .header-inner { padding: 19px 17px 13px; } .nav-inner { padding: 0 7px; } nav a { padding: 12px 10px; font-size: 13px; } .site-name { font-size: 22px; } }
+
+
+.story { background: white; border: 1px solid #dae4eb; padding: 28px; border-radius: 7px; }
+.story-art { float: right; width: min(37%, 300px); margin: 0 0 12px 20px; border-radius: 7px; }
+.team-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 17px; }
+.initial { width: 51px; height: 51px; display: grid; place-items: center; border-radius: 50%; background: #dbeef8; color: var(--navy); font-size: 20px; font-weight: bold; margin-bottom: 14px; }
+.team-role { color: var(--blue); font-weight: bold; font-size: 14px; }
+.contact-grid { display: grid; grid-template-columns: .85fr 1.15fr; gap: 20px; }
+.contact-grid .card { min-width: 0; }
+label { display: block; font-weight: bold; margin: 12px 0 5px; }
+input, textarea { width: 100%; font: inherit; border: 1px solid #aabcc9; border-radius: 4px; padding: 10px; background: #fff; }
+textarea { min-height: 110px; resize: vertical; }
+form button { margin-top: 13px; }
+#form-status { margin-top: 13px; color: #275776; font-weight: bold; }
+.faq-item { margin-top: 15px; }
+@media (max-width: 760px) { .team-grid, .contact-grid { grid-template-columns: 1fr; } .story-art { float: none; display: block; width: 100%; max-width: 420px; margin: 0 auto 18px; } }
+
+  </style>
+</head>
+<body>
+<header>
+  <div class="header-inner">
+    <div><p class="site-name"><strong>Honeywell Aerospace</strong></p><p class="subtitle">Flight Monitoring</p></div>
+  </div>
+  <nav aria-label="Main navigation"><div class="nav-inner">
+    <a href="index.html">Home</a>
+    <a href="page2.html">Products &amp; Services</a>
+    <a href="page3.html" aria-current='page'>About &amp; Contact</a>
+  </div></nav>
+</header>
+<main>
+<section class="story">
+  <img class="story-art" src="assets/team-project.svg" alt="">
+  <p class="eyebrow">About our team</p>
+  <h1>We started with a question about black boxes.</h1>
+  <p>We looked at what happens when flight data is hard to access after an aircraft incident. We wanted to come up with a way for important updates to be sent through satellite communication and saved in one shared system.</p>
+  <p>We put together a fictional Honeywell Aerospace monitoring concept that connects flight data analysts, maintenance engineers, and investigators.</p>
+</section>
+
+<section class="section" aria-labelledby="team-title">
+  <h2 id="team-title">Meet the founders</h2>
+  <div class="team-grid">
+    <article class="card"><div class="initial" aria-hidden="true">KS</div><h3>Kyrtis Scott</h3><p class="team-role">Technology &amp; Website Lead</p><p>Works on the system diagrams, technical flow, and network infrastructure.</p></article>
+    <article class="card"><div class="initial" aria-hidden="true">NB</div><h3>Noah Bradley</h3><p class="team-role">Research &amp; Service Lead</p><p>Engineers the devices and makes sure they work at all times.</p></article>
+    <article class="card"><div class="initial" aria-hidden="true">KA</div><h3>Kevin Acosta</h3><p class="team-role">Data &amp; Customer Relations Lead</p><p>Helps with the data design and data integrity.</p></article>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="contact-title">
+  <h2 id="contact-title">Contact us</h2>
+  <div class="contact-grid">
+    <div class="card">
+      <h3>Our demo contact info</h3>
+      <p><strong>Email:</strong> <a href="mailto:team@aerospace.example">team@aerospace.example</a></p>
+      <p><strong>Phone:</strong> (803) 555-0148</p>
+      <p><strong>Location:</strong> Student Project Office, Columbia, SC (fictional)</p>
+      <p><strong>Social:</strong> @AerospaceClassDemo</p>
+      <h3>business hours</h3>
+      <p>Monday–Friday: 9:00 AM – 5:00 PM<br>Saturday–Sunday: Closed</p>
+    </div>
+    <div class="card">
+      <h3>Send a demo message</h3>
+      <form id="demo-contact-form">
+        <label for="your-name">Your name</label><input id="your-name" name="name" type="text" required maxlength="80" autocomplete="name">
+        <label for="your-email">Email</label><input id="your-email" name="email" type="email" required maxlength="120" autocomplete="email">
+        <label for="your-message">Message</label><textarea id="your-message" name="message" required maxlength="800" placeholder="Tell us what you're interested in..."></textarea>
+        <button class="btn" type="submit">Submit Form</button>
+        <p id="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section class="section card" aria-labelledby="faq-title">
+  <h2 id="faq-title">Frequently asked questions</h2>
+  <div class="faq-item"><h3>Is this the real Honeywell Aerospace website?</h3><p>No. This is a fictional business site made by three students for a class assignment.</p></div>
+  <div class="faq-item"><h3>Can we actually buy these services?</h3><p>No, the services and prices are examples to show our business idea.</p></div>
+  <div class="faq-item"><h3>What makes our idea different?</h3><p>It focuses on getting selected flight updates to a shared database during the flight instead of relying only on retrieving a physical recorder later.</p></div>
+</section>
+</main>
+<footer><div class="footer-inner"><p><strong>Honeywell Aerospace — Student Group Website</strong> | Kyrtis Scott · Noah Bradley · Kevin Acosta</p>
+  <p>This is a fictional classroom project. It is not an official Honeywell website and is not affiliated with Honeywell International Inc.</p>
+</div></footer>
+<script>
+  // Demo only: no server is connected and no information is sent.
+  document.getElementById('demo-contact-form').addEventListener('submit', function (event) {
+    event.preventDefault();
+    document.getElementById('form-status').textContent = 'Demo complete! This form does not send or save messages.';
+    this.reset();
+  });
+</script>
+</body>
+</html>
